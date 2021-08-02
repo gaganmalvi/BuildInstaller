@@ -39,7 +39,7 @@ def fastbootImgFlash(part, img):
     subprocess.run(['fastboot','flash',part,img])
 
 def checkForTeracube():
-    if (getDeviceCodename() == "yk673v6_lwg62_64" or getDeviceCodename() == "2e"):
+    if (getDeviceCodename() == "Teracube_2e" or getDeviceCodename() == "2e" or getDeviceCodename() == "yk673v6_lwg62_64"):
         print("Connected to Teracube 2e successfully.")
         return True
     else:
@@ -91,8 +91,6 @@ def ifBootloaderUnlocked():
 
 def unlockBootloader():
     print("Please wait...")
-    rebootToBootloader()
-    time.sleep(50)
     print("You will be prompted to press VOLUME UP to unlock the bootloader, on the device.")
     x = input("Are you sure you want to continue unlocking your device? (Y/N) ")
     if x.lower() == 'y':
