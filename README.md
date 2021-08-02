@@ -12,8 +12,8 @@ Note: You can also copy the platform tools to the cloned repository directory fo
 - First, install Platform Tools to PATH, or copy the platform tools to the cloned repository directory for it to 
 work.
 
-- Second, install Python 3.9.x, and check the Include in PATH option, or install Python 3.9.x from the Windows 
-Store.
+- Second, install Python 3.9.x, and check the Include in PATH option, or install Python 3.9.x from the 
+[Windows Store](https://www.microsoft.com/store/productId/9P7QFQMJRFP7)
 
 - Now, clone the repository:
 ```
