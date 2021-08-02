@@ -109,7 +109,7 @@ def mainscr():
     print("\nREAD ALL INSTRUCTIONS BEFORE PROCEEDING.")
     print("\nPlease install Google's Platform tools before proceeding.")
     print("\nAfter installation of Google's Platform tools (adb and fastboot),")
-    print("please enable USB debugging on your Teracube 2e, connect to PC, and grant all necessary permissions.")
+    print("please enable USB debugging AND OEM unlocking on your Teracube 2e, connect to PC, and grant all necessary permissions.")
     print("\nAfter connecting, please confirm if you want to continue flashing LineageOS. This will")
     print("wipe ALL userdata, so please back up before continuing.")
     x = input("\nAre you sure you want to continue? (Y/N) ")
